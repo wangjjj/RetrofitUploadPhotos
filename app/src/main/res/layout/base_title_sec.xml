@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/main_gradient_bg"/>
+
+    <RelativeLayout
+        android:background="@drawable/main_gradient_bg"
+        android:layout_width="match_parent"
+        android:layout_height="39dp">
+
+        <TextView
+            android:id="@+id/topbar_back"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="返回"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@mipmap/ic_back"
+            android:textColor="@color/white"
+            android:paddingRight="20dp"
+            android:paddingLeft="5dp"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/topbar_title"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--<TextView-->
+            <!--android:id="@+id/topbar_more"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:layout_marginRight="50dp"-->
+            <!--android:drawableLeft="@mipmap/ic_more"-->
+            <!--android:gravity="center"-->
+            <!--android:visibility="gone"-->
+            <!--android:text=""-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="14sp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+    </RelativeLayout>
+
+</merge>

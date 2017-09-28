@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#60b4e5</color>
+    <color name="colorPrimaryDark">#60b4e5</color>
+    <color name="colorAccent">#22d6ed</color>
+
+    <color name="white">#FFFFFF</color>
+    <!--配置渐变色-->
+    <color name="gradient_startColor">#60b4e5</color>
+    <color name="gradient_centerColor">#52a6d6</color>
+    <color name="gradient_endColor">#4499c7</color>
+</resources>

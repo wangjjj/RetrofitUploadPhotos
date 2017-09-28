@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/yapin_add"/>
+
+
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="center"
+            android:src="@mipmap/busi_close"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_photo"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="添加照片"
+        android:textSize="9sp"
+        android:textColor="#999999"/>
+
+</LinearLayout>

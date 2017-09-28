@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_dialog"
+    android:gravity="center"
+    android:layout_width="280dp"
+    android:layout_height="80dp">
+
+
+    <TextView
+        android:id="@+id/upload_progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50%"
+        android:textSize="14sp"
+        android:textColor="#18C8DF"/>
+
+    <ProgressBar
+        android:layout_marginTop="8dp"
+        android:id="@+id/upload_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:background="@drawable/progressbar_bg"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/progressbar_progress"
+        android:layout_width="240dp"
+        android:layout_height="12dp"
+        android:max="100"
+        android:progress="50"/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传中，请稍后"
+        android:textSize="14sp"
+        android:textColor="#18C8DF"/>
+
+
+</LinearLayout>

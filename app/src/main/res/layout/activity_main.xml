@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <View
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/main_gradient_bg"/>
+
+    <RelativeLayout
+        android:background="@drawable/main_gradient_bg"
+        android:layout_width="match_parent"
+        android:layout_height="39dp">
+
+        <TextView
+            android:id="@+id/topbar_title"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="批量上传图片"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_uploadact1"
+        android:gravity="center"
+        android:text="uploadact1"
+        android:background="@drawable/shape_btn"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_width="240dp"
+        android:layout_height="34dp" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_uploadact2"
+        android:gravity="center"
+        android:text="uploadact2"
+        android:background="@drawable/shape_btn"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_width="240dp"
+        android:layout_height="34dp" />
+</LinearLayout>
